@@ -2,23 +2,23 @@ const Services = () => {
   const services = [
     {
       number: "01",
-      title: "RESIDENTIAL",
-      description: "Crafting homes that reflect individual lifestyles while maintaining architectural integrity"
+      title: "SELL YOUR CAR",
+      description: "We help car owners present and sell their vehicles through our premium digital showroom and targeted audience of buyers."
     },
     {
       number: "02", 
-      title: "COMMERCIAL",
-      description: "Designing functional spaces that enhance business environments and user experiences"
+      title: "EXCLUSIVE CAR RENTALS",
+      description: "Experience high-performance and luxury vehicles available for exclusive rental through our platform."
     },
     {
       number: "03",
-      title: "RENOVATION",
-      description: "Transforming existing structures with contemporary sensibilities and sustainable practices"
+      title: "PREMIUM VEHICLE SHOWCASE",
+      description: "Every vehicle is presented with high-quality images, detailed specifications, and professional listings."
     },
     {
       number: "04",
-      title: "CONSULTATION",
-      description: "Providing expert guidance on design direction, planning, and architectural solutions"
+      title: "CLIENT SUPPORT",
+      description: "Our team assists customers throughout the process, connecting sellers, buyers, and renters for a smooth experience."
     }
   ];
 
@@ -29,7 +29,7 @@ const Services = () => {
           <div className="mb-20">
             <h2 className="text-minimal text-muted-foreground mb-4">SERVICES</h2>
             <h3 className="text-4xl md:text-6xl font-light text-architectural">
-              What We Do
+              What We Offer
             </h3>
           </div>
           

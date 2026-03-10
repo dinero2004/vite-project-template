@@ -12,32 +12,30 @@ const Contact = () => {
               <div>
                 <h1 className="text-minimal text-muted-foreground mb-4">GET IN TOUCH</h1>
                 <h2 className="text-4xl md:text-6xl font-light text-architectural mb-12">
-                  Let's Create Something
-                  <br />
-                  Extraordinary
+                  Let's Work Together
                 </h2>
                 
                 <div className="space-y-8">
                   <div>
                     <h3 className="text-minimal text-muted-foreground mb-2">EMAIL</h3>
-                    <a href="mailto:hello@archstudio.com" className="text-xl hover:text-muted-foreground transition-colors duration-300">
-                      hello@archstudio.com
+                    <a href="mailto:lazar.minkov@gmail.com" className="text-xl hover:text-muted-foreground transition-colors duration-300">
+                      lazar.minkov@gmail.com
                     </a>
                   </div>
                   
                   <div>
                     <h3 className="text-minimal text-muted-foreground mb-2">PHONE</h3>
-                    <a href="tel:+1234567890" className="text-xl hover:text-muted-foreground transition-colors duration-300">
-                      +1 (234) 567-8900
+                    <a href="tel:+41782348028" className="text-xl hover:text-muted-foreground transition-colors duration-300">
+                      +41 78 234 80 28
                     </a>
                   </div>
                   
                   <div>
                     <h3 className="text-minimal text-muted-foreground mb-2">STUDIO</h3>
                     <address className="text-xl not-italic">
-                      123 Design Avenue
+                      Muserstrasse 3
                       <br />
-                      New York, NY 10001
+                      8001 Zürich
                     </address>
                   </div>
                 </div>
@@ -47,23 +45,21 @@ const Contact = () => {
                 <div>
                   <h3 className="text-minimal text-muted-foreground mb-6">FOLLOW US</h3>
                   <div className="space-y-4">
-                    <a href="#" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                    <a href="https://www.instagram.com/lazar.minkov/" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
                       Instagram
                     </a>
-                    <a href="#" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                    <a href="https://www.linkedin.com/in/lazar-minkov-b0494b22a/" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
                       LinkedIn
                     </a>
-                    <a href="#" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
-                      Behance
+                    <a href="https://github.com/dinero2004" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                      GitHub
                     </a>
                   </div>
                 </div>
                 
                 <div className="pt-12 border-t border-border">
                   <p className="text-muted-foreground">
-                    We approach each project with curiosity, rigor, and a commitment to excellence. 
-                    Our process begins with listening, understanding your vision, and translating 
-                    it into spaces that exceed expectations.
+                   We approach every vehicle with passion, precision, and a commitment to excellence. Our process begins with understanding our clients’ needs and presenting exceptional cars through a trusted platform that connects sellers, buyers, and enthusiasts.
                   </p>
                 </div>
               </div>

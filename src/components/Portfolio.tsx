@@ -1,26 +1,26 @@
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
+import project1 from "@/assets/ferrari-488-pista.jpg";
+import project2 from "@/assets/alfa-romeo-giulia-qv.jpeg";
+import project3 from "@/assets/lamborghini-revuelto.jpeg";
 
 const Portfolio = () => {
   const projects = [
     {
       image: project1,
-      title: "MINIMAL RESIDENCE",
-      location: "NEW YORK, 2024",
-      description: "A contemporary home focusing on light, space, and material honesty"
+      title: "Ferrari 488 PISTA",
+      location: "NEW YORK, 2020",
+      description: "The Ferrari 488 Pista is a track-focused, lightweight, high-performance variant of the 488 GTB"
     },
     {
       image: project2,
-      title: "CORPORATE HEADQUARTERS",
-      location: "LONDON, 2023",
-      description: "Modern office space emphasizing collaboration and natural elements"
+      title: "Alfa Romeo Giulia Quadrifoglio",
+      location: "Italy, 2023",
+      description: "The Alfa Romeo Giulia Quadrifoglio is a high-performance sports sedan that combines Italian style with cutting-edge technology."
     },
     {
       image: project3,
-      title: "CULTURAL CENTER",
-      location: "TOKYO, 2023",
-      description: "Public architecture that bridges tradition with contemporary design"
+      title: "Lamborghini Revuelto",
+      location: "Toscana, 2023",
+      description: ""
     }
   ];
 

@@ -5,23 +5,23 @@ const Services = () => {
   const services = [
     {
       number: "01",
-      title: "RESIDENTIAL",
-      description: "Crafting homes that reflect individual lifestyles while maintaining architectural integrity"
+      title: "SELL YOUR CAR",
+      description: "We help owners present and sell their vehicles through our premium digital showroom, connecting them with serious buyers."
     },
     {
       number: "02", 
-      title: "COMMERCIAL",
-      description: "Designing functional spaces that enhance business environments and user experiences"
+      title: "EXCLUSIVE RENTALS",
+      description: "Experience the thrill of driving exceptional sports and luxury cars available for exclusive rental."
     },
     {
       number: "03",
-      title: "RENOVATION",
-      description: "Transforming existing structures with contemporary sensibilities and sustainable practices"
+      title: "PREMIUM VEHICLE SHOWCASE",
+      description: "Every car is presented with high-quality visuals, detailed specifications, and a professional listing."
     },
     {
       number: "04",
-      title: "CONSULTATION",
-      description: "Providing expert guidance on design direction, planning, and architectural solutions"
+      title: "CLIENT SUPPORT",
+      description: "Our team assists clients throughout the process, ensuring a smooth experience for both sellers and renters."
     }
   ];
 

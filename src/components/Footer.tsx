@@ -9,9 +9,9 @@ const footerLinks = [
 ];
 
 const socialLinks = [
-  { href: "#", label: "Instagram" },
-  { href: "#", label: "LinkedIn" },
-  { href: "#", label: "Behance" },
+  { href: "https://www.instagram.com/lazar.minkov/", label: "Instagram" },
+  { href: "https://www.linkedin.com/in/lazar-minkov-b0494b22a/", label: "LinkedIn" },
+  { href: "https://github.com/dinero2004", label: "GitHub" },
 ];
 
 const Footer = () => {
@@ -24,12 +24,11 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 gap-16 mb-16">
             {/* Brand */}
             <div>
-              <Link to="/" className="text-minimal text-background mb-6 block">
-                ARCH STUDIO
+              <Link to="/" className="text-minimal link-bordo mb-6 block">
+              APEX MOTORSPORT
               </Link>
               <p className="text-background/60 leading-relaxed">
-                Creating spaces that inspire through thoughtful design and
-                uncompromising quality.
+                Delivering exceptional automotive experiences through carefully curated vehicles and uncompromising quality.
               </p>
             </div>
 
@@ -41,7 +40,7 @@ const Footer = () => {
                   <Link
                     key={link.href}
                     to={link.href}
-                    className="block text-background/70 hover:text-background transition-colors duration-300"
+                    className="block text-background/70 text-minimal link-bordo duration-300"
                   >
                     {link.label}
                   </Link>
@@ -59,7 +58,7 @@ const Footer = () => {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block text-background/70 hover:text-background transition-colors duration-300"
+                    className="block text-background/70 text-minimal link-bordo duration-300"
                   >
                     {link.label}
                   </a>
@@ -68,15 +67,15 @@ const Footer = () => {
               <div className="space-y-2">
                 <a
                   href="mailto:hello@archstudio.com"
-                  className="block text-background/70 hover:text-background transition-colors duration-300"
+                  className="block text-background/70 text-minimal link-bordo duration-300"
                 >
-                  hello@archstudio.com
+                  lazar.minkov@gmail.com
                 </a>
                 <a
-                  href="tel:+1234567890"
-                  className="block text-background/70 hover:text-background transition-colors duration-300"
+                  href="tel:+41782348028"
+                  className="block text-background/70 text-minimal link-bordo duration-300"
                 >
-                  +1 (234) 567-8900
+                  +41 78 234 80 28
                 </a>
               </div>
             </div>
@@ -85,10 +84,10 @@ const Footer = () => {
           {/* Bottom Bar */}
           <div className="pt-8 border-t border-background/10 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-minimal text-background/40">
-              © {currentYear} ARCH STUDIO. ALL RIGHTS RESERVED.
+              © {currentYear} Apex Motorsport. All rights reserved.
             </p>
-            <p className="text-minimal text-background/40">
-              NEW YORK — LONDON — TOKYO
+            <p className="text-minimal text-background/40 link-bordo">
+              🇨🇭BERN — ZURICH — GENEVA
             </p>
           </div>
         </div>

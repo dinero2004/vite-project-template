@@ -12,20 +12,16 @@ const About = () => {
               <div>
                 <h1 className="text-minimal text-muted-foreground mb-4">ABOUT</h1>
                 <h2 className="text-4xl md:text-6xl font-light text-architectural mb-12">
-                  Design Philosophy
+                  Apex Motorsport
                 </h2>
                 
                 <div className="space-y-8">
                   <p className="text-lg text-muted-foreground leading-relaxed">
-                    We believe architecture should enhance human experience while respecting 
-                    the natural environment. Our practice focuses on creating spaces that 
-                    are both functional and poetic.
+                    Apex Motorsport is a premium digital showroom dedicated to showcasing exceptional sports and luxury vehicles. Our platform connects car owners with serious buyers by presenting vehicles with professional images, detailed specifications, and high-quality listings. We help customers promote and sell their cars to a targeted audience of enthusiasts and collectors.
                   </p>
                   
                   <p className="text-lg text-muted-foreground leading-relaxed">
-                    Founded in 2015, our studio has completed over 200 projects across 
-                    residential, commercial, and cultural sectors. Each project begins 
-                    with careful listening and ends with thoughtful execution.
+                   In addition to vehicle sales, Apex Motorsport offers exclusive car rental experiences. Clients can discover and rent high-performance and luxury vehicles directly through our platform. Our goal is to create a refined, trustworthy space where unique cars can be showcased, sold, and experienced by people who truly appreciate them.
                   </p>
                 </div>
               </div>
@@ -53,11 +49,11 @@ const About = () => {
                   <div className="grid grid-cols-2 gap-8">
                     <div>
                       <h3 className="text-minimal text-muted-foreground mb-2">FOUNDED</h3>
-                      <p className="text-xl">2015</p>
+                      <p className="text-xl">2023</p>
                     </div>
                     <div>
                       <h3 className="text-minimal text-muted-foreground mb-2">PROJECTS</h3>
-                      <p className="text-xl">200+</p>
+                      <p className="text-xl">150+</p>
                     </div>
                   </div>
                 </div>
