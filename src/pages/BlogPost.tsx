@@ -111,7 +111,7 @@ const BlogPost = () => {
             <div className="mt-16 pt-8 border-t border-border">
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 bg-muted rounded-full">
-                  <img className="rounded-full" src="/src/assets/authors/lazar-minkov.png" alt="Lazar Minkov" />
+                  <img className="rounded-full" src="@assets/authors/lazar-minkov.png" alt="Lazar Minkov" />
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-foreground">{post.author}</h3>
