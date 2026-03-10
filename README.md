@@ -1,74 +1,85 @@
-# Welcome to your Lovable project
+# Apex Motorsport
 
-## Project info
+Apex Motorsport is a modern digital showroom for showcasing, selling, and renting exclusive sports and luxury vehicles. The platform allows users to explore high-performance cars from leading manufacturers such as Ferrari, Lamborghini, McLaren, and Porsche through a clean and visually immersive interface.
 
-**URL**: https://lovable.dev/projects/09a14ae7-bd4a-415b-b22e-66bbeb1a9240
+## Overview
 
-## How can I edit this code?
+Apex Motorsport was developed as a platform for automotive enthusiasts and potential buyers to discover exceptional vehicles in a curated environment. The website presents each car with high-quality imagery, technical specifications, and manufacturer filtering, providing an elegant browsing experience inspired by modern luxury automotive marketplaces.
 
-There are several ways of editing your application.
+In addition to showcasing vehicles, the platform also supports car owners who want to promote and sell their vehicles, while offering exclusive rental opportunities for clients seeking unique driving experiences.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/09a14ae7-bd4a-415b-b22e-66bbeb1a9240) and start prompting.
+* Curated collection of sports and luxury vehicles
+* Manufacturer filtering (Ferrari, Lamborghini, McLaren, Porsche)
+* Interactive UI with manufacturer-specific visual details
+* High-quality vehicle images and specifications
+* Responsive modern design
+* Dark and light theme with luxury red color palette
 
-Changes made via Lovable will be committed automatically to this repo.
+## Technologies Used
 
-**Use your preferred IDE**
+* React
+* TypeScript
+* Tailwind CSS
+* Vite
+* Modern CSS variables and gradients
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Project Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```
+src
+ ├─ assets            # Car images and manufacturer assets
+ ├─ components        # Reusable UI components (Header, Footer, etc.)
+ ├─ pages             # Main pages such as Work / Blog
+ ├─ data              # Static data (cars, blog posts)
+ └─ styles            # Global styles and theme variables
+```
 
-Follow these steps:
+## Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Clone the repository:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```
+git clone https://github.com/yourusername/apex-motorsport.git
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+Navigate to the project folder:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```
+cd apex-motorsport
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the development server:
+
+```
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will start locally at:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:8001
+```
 
-**Use GitHub Codespaces**
+## Future Improvements
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* Vehicle detail pages
+* Search and advanced filtering
+* Seller dashboard for listing vehicles
+* Rental booking system
+* Market data and price insights
 
-## What technologies are used for this project?
+## Author
 
-This project is built with:
+Lazar Minkov
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## License
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/09a14ae7-bd4a-415b-b22e-66bbeb1a9240) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-# vite-project-template
+This project is intended for educational and portfolio purposes.
