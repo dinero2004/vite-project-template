@@ -1,3 +1,7 @@
+import ferrari from "@/assets/manufacturers/Ferrari/models/488 Pista/2019-ferrari-488-pista-103-1528476282.jpg";
+import lamborghini from "@/assets/manufacturers/Lamborghini/models/Aventador SVJ/2020-lamborghini-aventador-svj-roadster-drive-111-1576871370.jpg";
+import mclaren from "@/assets/manufacturers/McLaren/models/720S/2019-mclaren-720s-spider-122-hdr-1565493353.jpg";
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -43,7 +47,7 @@ The result is a supercar that delivers both raw performance and remarkable drive
     date: "2024-03-15",
     readTime: "5 min read",
     category: "FERRARI",
-    image: "/src/assets/manufacturers/Ferrari/models/488 Pista/2019-ferrari-488-pista-103-1528476282.jpg"
+    image: ferrari
   },
 
   {
@@ -78,7 +82,7 @@ With its naturally aspirated V12 and race-inspired engineering, the Aventador SV
     date: "2024-03-10",
     readTime: "5 min read",
     category: "LAMBORGHINI",
-    image: "/src/assets/manufacturers/Lamborghini/models/Aventador SVJ/2020-lamborghini-aventador-svj-roadster-drive-111-1576871370.jpg"
+    image: lamborghini
   },
 
   {
@@ -113,6 +117,6 @@ The 720S offers a unique balance of comfort and performance, making it equally i
     date: "2024-03-05",
     readTime: "5 min read",
     category: "MCLAREN",
-    image: "/src/assets/manufacturers/McLaren/models/720S/2019-mclaren-720s-spider-122-hdr-1565493353.jpg"
+    image: mclaren
   }
 ];
