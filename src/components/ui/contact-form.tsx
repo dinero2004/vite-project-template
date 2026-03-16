@@ -50,11 +50,11 @@ export default function ContactForm() {
         import.meta.env.VITE_EMAIL_PUBLIC
       )
 
-      toast.success("Message sent successfully")
+      toast.success(t("contact-form.success"))
       reset()
 
     } catch {
-      toast.error("Failed to send message")
+      toast.error(t("contact-form.error"))
     }
 
     setLoading(false)
@@ -69,32 +69,40 @@ export default function ContactForm() {
       <div className="grid grid-cols-2 gap-4">
         <input
           {...register("firstName")}
-          placeholder="First Name"
+          placeholder={t("contact-form.form.first_name")}
           className="border p-3 w-full"
         />
+
         <input
           {...register("lastName")}
-          placeholder="Last Name"
+          placeholder={t("contact-form.form.last_name")}
           className="border p-3 w-full"
         />
       </div>
 
-      {errors.firstName && <p className="text-red-500">Invalid name</p>}
+      {errors.firstName && (
+        <p className="text-red-500 text-sm">
+          {t("contact-form.form.validation_name")}
+        </p>
+      )}
 
       <input
         {...register("phone")}
-        placeholder="Phone Number"
+        placeholder={t("contact-form.form.phone")}
         className="border p-3 w-full"
       />
 
       <input
         {...register("email")}
-        placeholder="Email"
+        placeholder={t("contact-form.form.email")}
         className="border p-3 w-full"
       />
 
       <select {...register("service")} className="border p-3 w-full">
-        <option value="">Select Service</option>
+        <option value="">
+          {t("contact-form.form.select_service")}
+        </option>
+
         {services.map((service) => (
           <option key={service}>{service}</option>
         ))}
@@ -102,7 +110,7 @@ export default function ContactForm() {
 
       <textarea
         {...register("message")}
-        placeholder="Message"
+        placeholder={t("contact-form.form.message")}
         className="border p-3 w-full h-32"
       />
 
@@ -111,7 +119,9 @@ export default function ContactForm() {
         disabled={loading}
         className="bg-primary text-white px-6 py-3 rounded w-full"
       >
-        {loading ? "Sending..." : "Send Message"}
+        {loading
+          ? t("contact-form.form.sending")
+          : t("contact-form.form.send")}
       </button>
 
     </form>

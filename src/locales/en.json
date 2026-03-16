@@ -83,6 +83,42 @@
     "services": "Services",
     "about": "About",
     "contact": "Contact"
+  },
+  "contact-form": {
+    "form": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "phone": "Phone Number",
+      "email": "Email",
+      "select_service": "Select Service",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully",
+      "error": "Failed to send message",
+      "validation_name": "Please enter a valid name"
+    }
+  },
+  "work": {
+    "title": "Our Cases",
+    "description": "A selection of representative legal cases demonstrating our experience in providing strategic legal advice, strong courtroom representation, and effective solutions for our clients.",
+
+    "area": "Practice Area",
+    "year": "Year",
+
+    "categories": {
+      "all": "All",
+      "residential": "Civil Law",
+      "commercial": "Corporate Law",
+      "cultural": "Litigation",
+      "hospitality": "Consulting"
+    },
+
+    "cta": {
+      "title": "Need Legal Assistance?",
+      "description": "Our attorneys provide professional legal support tailored to your situation. Contact us today to discuss your case.",
+      "button": "Contact Us"
+    }
   }
 
 }

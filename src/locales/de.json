@@ -83,5 +83,42 @@
     "services": "Dienstleistungen",
     "about": "Über uns",
     "contact": "Kontakt"
+  },
+
+  "contact-form": {
+    "form": {
+      "first_name": "Vorname",
+      "last_name": "Nachname",
+      "phone": "Telefonnummer",
+      "email": "E-Mail",
+      "select_service": "Dienstleistung auswählen",
+      "message": "Nachricht",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Nachricht erfolgreich gesendet",
+      "error": "Nachricht konnte nicht gesendet werden",
+      "validation_name": "Bitte gültigen Namen eingeben"
+    }
+  },
+  "work": {
+    "title": "Unsere Fälle",
+    "description": "Eine Auswahl repräsentativer Rechtsfälle, die unsere Erfahrung in der strategischen Rechtsberatung, der Vertretung vor Gericht und der erfolgreichen Lösung komplexer rechtlicher Fragen zeigt.",
+
+    "area": "Rechtsgebiet",
+    "year": "Jahr",
+
+    "categories": {
+      "all": "Alle",
+      "residential": "Zivilrecht",
+      "commercial": "Gesellschaftsrecht",
+      "cultural": "Prozessführung",
+      "hospitality": "Rechtsberatung"
+    },
+
+    "cta": {
+      "title": "Benötigen Sie rechtliche Unterstützung?",
+      "description": "Unsere Anwälte bieten professionelle Rechtsberatung, abgestimmt auf Ihre individuelle Situation.",
+      "button": "Kontakt aufnehmen"
+    }
   }
 }
