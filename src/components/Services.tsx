@@ -1,24 +1,28 @@
+import { useTranslation } from "react-i18next";
+
 const Services = () => {
+  const { t } = useTranslation();
+
   const services = [
     {
       number: "01",
-      title: "RESIDENTIAL",
-      description: "Crafting homes that reflect individual lifestyles while maintaining architectural integrity"
+      title: t("services.service_1_title"),
+      description: t("services.service_1_desc")
     },
     {
-      number: "02", 
-      title: "COMMERCIAL",
-      description: "Designing functional spaces that enhance business environments and user experiences"
+      number: "02",
+      title: t("services.service_2_title"),
+      description: t("services.service_2_desc")
     },
     {
       number: "03",
-      title: "RENOVATION",
-      description: "Transforming existing structures with contemporary sensibilities and sustainable practices"
+      title: t("services.service_3_title"),
+      description: t("services.service_3_desc")
     },
     {
       number: "04",
-      title: "CONSULTATION",
-      description: "Providing expert guidance on design direction, planning, and architectural solutions"
+      title: t("services.service_4_title"),
+      description: t("services.service_4_desc")
     }
   ];
 
@@ -27,12 +31,15 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto">
           <div className="mb-20">
-            <h2 className="text-minimal text-muted-foreground mb-4">SERVICES</h2>
+            <h2 className="text-minimal text-muted-foreground mb-4">
+              {t("services.label")}
+            </h2>
+
             <h3 className="text-4xl md:text-6xl font-light text-architectural">
-              What We Do
+              {t("services.title")}
             </h3>
           </div>
-          
+
           <div className="grid md:grid-cols-2 gap-x-20 gap-y-16">
             {services.map((service, index) => (
               <div key={index} className="group">
@@ -40,10 +47,12 @@ const Services = () => {
                   <span className="text-minimal text-muted-foreground font-medium">
                     {service.number}
                   </span>
+
                   <div>
                     <h4 className="text-2xl font-light mb-4 text-architectural group-hover:text-muted-foreground transition-colors duration-500">
                       {service.title}
                     </h4>
+
                     <p className="text-muted-foreground leading-relaxed">
                       {service.description}
                     </p>
@@ -52,6 +61,7 @@ const Services = () => {
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </section>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import LanguageSwitcher from "@/components/ui/language-switcher";
 
 const navLinks = [
   { href: "/work", label: "WORK" },
@@ -19,7 +20,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <Link to="/" className="text-minimal text-foreground">
-          ARCH STUDIO
+          Kolev, Minkov & Slavchev
         </Link>
 
         <nav className="hidden md:flex items-center space-x-12">
@@ -39,6 +40,7 @@ const Header = () => {
         </nav>
 
         <div className="hidden md:flex items-center space-x-4">
+          <LanguageSwitcher />
           <ThemeToggle />
         </div>
 
@@ -71,6 +73,7 @@ const Header = () => {
               </Link>
             ))}
             <div className="pt-4 border-t border-border">
+              <LanguageSwitcher />
               <ThemeToggle />
             </div>
           </div>

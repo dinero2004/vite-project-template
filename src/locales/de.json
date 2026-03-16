@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title_line1": "Kolev, Minkov",
+    "title_line2": "& Slavchev",
+    "description": "Professionelle Rechtsberatung mit Engagement, Integrität und persönlicher Betreuung.",
+    "scroll": "SCROLLEN"
+  },
+  "services": {
+    "label": "DIENSTLEISTUNGEN",
+    "title": "Rechtsdienstleistungen",
+
+    "service_1_title": "Rechtsberatung",
+    "service_1_desc": "Professionelle rechtliche Beratung, angepasst an Ihre individuelle Situation.",
+
+    "service_2_title": "Vertragsrecht",
+    "service_2_desc": "Erstellung, Prüfung und Verhandlung von Verträgen zum Schutz Ihrer Interessen.",
+
+    "service_3_title": "Prozessvertretung",
+    "service_3_desc": "Vertretung vor Gerichten und Institutionen mit klarer rechtlicher Strategie.",
+
+    "service_4_title": "Gesellschaftsrecht",
+    "service_4_desc": "Rechtliche Unterstützung für Unternehmen bei Gründung und Einhaltung gesetzlicher Vorschriften."
+  },
+  "about": {
+    "label": "ÜBER UNS",
+    "title": "Unsere Philosophie",
+
+    "description_1": "Unsere Anwaltskanzlei bietet professionelle Rechtsberatung mit Integrität, Diskretion und Engagement für jeden Mandanten.",
+    "description_2": "Wir unterstützen Privatpersonen und Unternehmen mit zuverlässigen und praxisnahen juristischen Lösungen.",
+
+    "approach_label": "ANSATZ",
+
+    "research_title": "Rechtliche Analyse",
+    "research_desc": "Sorgfältige Analyse jedes Falls und der rechtlichen Rahmenbedingungen.",
+
+    "collaboration_title": "Mandantenpartnerschaft",
+    "collaboration_desc": "Enge Zusammenarbeit mit unseren Mandanten zur bestmöglichen Vertretung ihrer Interessen.",
+
+    "innovation_title": "Strategische Lösungen",
+    "innovation_desc": "Moderne juristische Strategien für nachhaltigen rechtlichen Schutz.",
+
+    "founded": "GEGRÜNDET",
+    "projects": "FÄLLE"
+  },
+  "cases": {
+    "label": "FALLSTUDIEN",
+    "title": "Ausgewählte Fälle",
+
+    "case_1_title": "Unternehmensberatung",
+    "case_1_category": "Gesellschaftsrecht",
+    "case_1_desc": "Juristische Beratung und strategische Unterstützung für ein wachsendes Unternehmen.",
+
+    "case_2_title": "Vertragsverhandlungen",
+    "case_2_category": "Vertragsrecht",
+    "case_2_desc": "Erstellung und Verhandlung komplexer Geschäftsverträge.",
+
+    "case_3_title": "Prozessvertretung",
+    "case_3_category": "Prozessrecht",
+    "case_3_desc": "Vertretung in komplexen Rechtsstreitigkeiten vor Gerichten."
+  },
+  "contact": {
+    "label": "KONTAKT",
+    "title_line1": "Kontaktieren",
+    "title_line2": "Sie uns",
+
+    "email": "E-MAIL",
+    "phone": "TELEFON",
+    "office": "BÜRO",
+
+    "address_line1": "Vasil-Levski-Boulevard 6, Wohnung 7",
+    "address_line2": "Sofia, Bulgarien"
+  },
+  "footer": {
+    "description": "Professionelle Rechtsberatung mit Integrität, Vertrauen und Engagement.",
+    "navigate": "NAVIGATION",
+    "connect": "KONTAKT",
+    "rights": "Kolev, Minkov & Slavchev. Alle Rechte vorbehalten.",
+    "location": "Sofia, Bulgarien"
+  },
+
+  "navigation": {
+    "work": "Fälle",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  }
+}

@@ -1,41 +1,46 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const footerLinks = [
-  { href: "/work", label: "Work" },
-  { href: "/services", label: "Services" },
-  { href: "/about", label: "About" },
-  { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contact" },
+  { href: "/work", key: "navigation.work" },
+  { href: "/services", key: "navigation.services" },
+  { href: "/about", key: "navigation.about" },
+  { href: "/contact", key: "navigation.contact" }
 ];
 
 const socialLinks = [
   { href: "#", label: "Instagram" },
-  { href: "#", label: "LinkedIn" },
-  { href: "#", label: "Behance" },
+  { href: "#", label: "LinkedIn" }
 ];
 
 const Footer = () => {
+  const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-foreground text-background">
       <div className="container mx-auto px-6 py-20">
         <div className="max-w-7xl mx-auto">
+
           <div className="grid md:grid-cols-3 gap-16 mb-16">
+
             {/* Brand */}
             <div>
               <Link to="/" className="text-minimal text-background mb-6 block">
-                ARCH STUDIO
+                Kolev, Minkov & Slavchev
               </Link>
+
               <p className="text-background/60 leading-relaxed">
-                Creating spaces that inspire through thoughtful design and
-                uncompromising quality.
+                {t("footer.description")}
               </p>
             </div>
 
             {/* Navigation */}
             <div>
-              <h4 className="text-minimal text-background/40 mb-6">NAVIGATE</h4>
+              <h4 className="text-minimal text-background/40 mb-6">
+                {t("footer.navigate")}
+              </h4>
+
               <nav className="space-y-3">
                 {footerLinks.map((link) => (
                   <Link
@@ -43,7 +48,7 @@ const Footer = () => {
                     to={link.href}
                     className="block text-background/70 hover:text-background transition-colors duration-300"
                   >
-                    {link.label}
+                    {t(link.key)}
                   </Link>
                 ))}
               </nav>
@@ -51,7 +56,10 @@ const Footer = () => {
 
             {/* Connect */}
             <div>
-              <h4 className="text-minimal text-background/40 mb-6">CONNECT</h4>
+              <h4 className="text-minimal text-background/40 mb-6">
+                {t("footer.connect")}
+              </h4>
+
               <div className="space-y-3 mb-8">
                 {socialLinks.map((link) => (
                   <a
@@ -65,32 +73,37 @@ const Footer = () => {
                   </a>
                 ))}
               </div>
+
               <div className="space-y-2">
                 <a
-                  href="mailto:hello@archstudio.com"
+                  href="mailto:miroslav.minkov@gmail.com"
                   className="block text-background/70 hover:text-background transition-colors duration-300"
                 >
-                  hello@archstudio.com
+                  miroslav.minkov@gmail.com
                 </a>
+
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+359898527830"
                   className="block text-background/70 hover:text-background transition-colors duration-300"
                 >
-                  +1 (234) 567-8900
+                  +359 898 52 78 30
                 </a>
               </div>
             </div>
+
           </div>
 
           {/* Bottom Bar */}
           <div className="pt-8 border-t border-background/10 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-minimal text-background/40">
-              © {currentYear} ARCH STUDIO. ALL RIGHTS RESERVED.
+              © {currentYear} {t("footer.rights")}
             </p>
+
             <p className="text-minimal text-background/40">
-              NEW YORK — LONDON — TOKYO
+              {t("footer.location")}
             </p>
           </div>
+
         </div>
       </div>
     </footer>

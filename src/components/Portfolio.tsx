@@ -1,71 +1,84 @@
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
+import case1 from "@/assets/portfolio/case-1.png";
+import case2 from "@/assets/portfolio/case-2.png";
+import case3 from "@/assets/portfolio/case-3.png";
+
+import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {
-  const projects = [
+  const { t } = useTranslation();
+
+  const cases = [
     {
-      image: project1,
-      title: "MINIMAL RESIDENCE",
-      location: "NEW YORK, 2024",
-      description: "A contemporary home focusing on light, space, and material honesty"
+      image: case1,
+      title: t("cases.case_1_title"),
+      category: t("cases.case_1_category"),
+      description: t("cases.case_1_desc")
     },
     {
-      image: project2,
-      title: "CORPORATE HEADQUARTERS",
-      location: "LONDON, 2023",
-      description: "Modern office space emphasizing collaboration and natural elements"
+      image: case2,
+      title: t("cases.case_2_title"),
+      category: t("cases.case_2_category"),
+      description: t("cases.case_2_desc")
     },
     {
-      image: project3,
-      title: "CULTURAL CENTER",
-      location: "TOKYO, 2023",
-      description: "Public architecture that bridges tradition with contemporary design"
+      image: case3,
+      title: t("cases.case_3_title"),
+      category: t("cases.case_3_category"),
+      description: t("cases.case_3_desc")
     }
   ];
 
   return (
-    <section id="work" className="py-32 bg-muted">
+    <section id="cases" className="py-32 bg-muted">
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto">
+
           <div className="mb-20">
-            <h2 className="text-minimal text-muted-foreground mb-4">SELECTED WORK</h2>
+            <h2 className="text-minimal text-muted-foreground mb-4">
+              {t("cases.label")}
+            </h2>
+
             <h3 className="text-4xl md:text-6xl font-light text-architectural">
-              Our Projects
+              {t("cases.title")}
             </h3>
           </div>
-          
+
           <div className="space-y-32">
-            {projects.map((project, index) => (
+            {cases.map((item, index) => (
               <div key={index} className="group">
+
                 <div className="relative overflow-hidden">
-                  <img 
-                    src={project.image} 
-                    alt={project.title}
+                  <img
+                    src={item.image}
+                    alt={item.title}
                     className="w-full h-[70vh] object-cover transition-transform duration-700 group-hover:scale-105"
                   />
+
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 </div>
-                
+
                 <div className="mt-8 grid md:grid-cols-3 gap-8">
                   <div>
                     <h4 className="text-2xl font-light text-architectural mb-2">
-                      {project.title}
+                      {item.title}
                     </h4>
+
                     <p className="text-minimal text-muted-foreground">
-                      {project.location}
+                      {item.category}
                     </p>
                   </div>
-                  
+
                   <div className="md:col-span-2">
                     <p className="text-muted-foreground leading-relaxed">
-                      {project.description}
+                      {item.description}
                     </p>
                   </div>
                 </div>
+
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </section>

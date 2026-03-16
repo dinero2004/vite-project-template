@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "title_line1": "Kolev, Minkov",
+    "title_line2": "& Slavchev",
+    "description": "Professional legal services with dedication, integrity and personal attention.",
+    "scroll": "SCROLL"
+  },
+  "services": {
+    "label": "SERVICES",
+    "title": "Legal Services",
+
+    "service_1_title": "Legal Consultation",
+    "service_1_desc": "Professional legal advice tailored to your individual situation and needs.",
+
+    "service_2_title": "Contract Law",
+    "service_2_desc": "Drafting, reviewing and negotiating contracts to protect your interests.",
+
+    "service_3_title": "Litigation",
+    "service_3_desc": "Representation before courts and institutions with strong legal strategy.",
+
+    "service_4_title": "Corporate Law",
+    "service_4_desc": "Legal support for companies including business formation and compliance."
+  },
+  "about": {
+    "label": "ABOUT",
+    "title": "Our Philosophy",
+
+    "description_1": "Our law agency is committed to delivering professional legal services with integrity, discretion and dedication to every client.",
+    "description_2": "We provide reliable legal solutions for individuals and businesses, combining deep legal knowledge with a practical approach.",
+
+    "approach_label": "APPROACH",
+
+    "research_title": "Legal Analysis",
+    "research_desc": "Careful evaluation of each case and legal framework before developing a strategy.",
+
+    "collaboration_title": "Client Partnership",
+    "collaboration_desc": "Close collaboration with our clients to understand their goals and legal needs.",
+
+    "innovation_title": "Strategic Solutions",
+    "innovation_desc": "Modern legal strategies focused on efficiency and long-term protection.",
+
+    "founded": "FOUNDED",
+    "projects": "CASES"
+  },
+  "cases": {
+    "label": "CASE STUDIES",
+    "title": "Selected Cases",
+
+    "case_1_title": "Corporate Legal Advisory",
+    "case_1_category": "Corporate Law",
+    "case_1_desc": "Legal consultation and strategic support for a growing international company.",
+
+    "case_2_title": "Contract Negotiation",
+    "case_2_category": "Contract Law",
+    "case_2_desc": "Drafting and negotiation of complex commercial agreements.",
+
+    "case_3_title": "Litigation Representation",
+    "case_3_category": "Litigation",
+    "case_3_desc": "Representation in complex legal disputes before national courts."
+  },
+  "contact": {
+    "label": "CONTACT",
+    "title_line1": "Get Legal",
+    "title_line2": "Consultation",
+
+    "email": "EMAIL",
+    "phone": "PHONE",
+    "office": "OFFICE",
+
+    "address_line1": "6 Vasil Levski Blvd, Apt.7",
+    "address_line2": "Sofia, Bulgaria"
+  },
+  "footer": {
+    "description": "Professional legal services with integrity, trust and dedication.",
+    "navigate": "NAVIGATE",
+    "connect": "CONNECT",
+    "rights": "Kolev, Minkov & Slavchev. All rights reserved.",
+    "location": "Sofia, Bulgaria"
+  },
+
+  "navigation": {
+    "work": "Cases",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  }
+
+}
