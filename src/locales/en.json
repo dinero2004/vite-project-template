@@ -119,6 +119,21 @@
       "description": "Our attorneys provide professional legal support tailored to your situation. Contact us today to discuss your case.",
       "button": "Contact Us"
     }
+  },
+
+  "team": {
+    "lawyer1": {
+      "name": "Ivan Kolev",
+      "title": "Attorney at Law"
+    },
+    "lawyer2": {
+      "name": "Miroslav Minkov",
+      "title": "Attorney at Law"
+    },
+    "lawyer3": {
+      "name": "Georgi Slavchev",
+      "title": "Attorney at Law"
+    }
   }
 
 }
